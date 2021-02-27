@@ -1,0 +1,28 @@
+<view class="back">
+  <image src="cloud://kiahiahoa-4gvusjebfa839977.6b69-kiahiahoa-4gvusjebfa839977-1304487626/functionui/lxbg.png"
+    style="width:150rpx;height:150rpx;"></image>
+  <view>
+    <view>厦门广夏科技有限公司</view>
+    <view>致力于先进科技的研发</view>
+  </view>
+</view>
+<view class="cc">
+  <view style="font-size:37rpx;padding-top:20rpx;">基本信息</view>
+  <view class="message">
+    <image style="width:50rpx;height:50rpx;" src="cloud://kiahiahoa-4gvusjebfa839977.6b69-kiahiahoa-4gvusjebfa839977-1304487626/functionui/dz.png"></image>
+    <view>地址：陕西省西安市高新区天谷七路996号</view>
+  </view>
+  <view class="message">
+    <image style="width:50rpx;height:50rpx;" src="cloud://kiahiahoa-4gvusjebfa839977.6b69-kiahiahoa-4gvusjebfa839977-1304487626/functionui/phone.png"></image>
+    <view>电话：18096569562</view>
+    <button bindtap="phonecall">拨打</button>
+  </view>
+  <view class="message">
+    <image style="width:50rpx;height:50rpx;" src="cloud://kiahiahoa-4gvusjebfa839977.6b69-kiahiahoa-4gvusjebfa839977-1304487626/functionui/youbian.png"></image>
+    <view>邮编：712000</view>
+  </view>
+  <view class="message">
+    <image style="width:50rpx;height:50rpx;" src="cloud://kiahiahoa-4gvusjebfa839977.6b69-kiahiahoa-4gvusjebfa839977-1304487626/functionui/youxiang.png"></image>
+    <view>邮箱：113521@163.com</view>
+  </view>
+</view>

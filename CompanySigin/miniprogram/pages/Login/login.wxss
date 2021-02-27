@@ -1,0 +1,195 @@
+.back{
+  width: 100%;
+  height:100rpx;
+  display: flex;
+  flex-direction: center;
+  justify-content: space-around;
+}
+/* page {
+  background-color: rgba(175, 211, 17, 0.151);
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contanier {
+  position: fixed;
+  border-color: #888;
+  height: 50%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  box-sizing: border-box;
+  background-color: #fff;
+  bottom: 400rpx;
+  border-radius: 30rpx;
+}
+.header {
+  color: #888;
+  font-size: large;
+  font-weight: bold;
+}
+form {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+input {
+  color: #222;
+  height: 60rpx;
+  width: 400rpx;
+  border: 5rpx solid rgb(45,255,157);
+  border-radius: 40rpx;
+  padding: 5rpx 50rpx;
+  margin: 40rpx;
+}
+button {
+  background-color: #fff;
+  color:#888;
+  font-size: larger !important;
+  font-weight: 500 !important;
+  height: 60rpx !important;
+  width: 300rpx !important;
+  line-height:50rpx !important;
+  border: 5rpx solid #438edb !important;
+  border-radius: 40rpx !important;
+  padding: 5rpx 20rpx !important;
+}
+button.hover {
+  background-color: #438edb !important;
+  color: #222;
+  font-weight: 900 !important;
+}
+.back {
+  position: relative;
+  width: 100%;
+  height: 800rpx;
+  background-color: #1380f7;
+  top: -670rpx;
+}
+.back1 {
+  display: inline-block;
+  position: fixed;
+  bottom: 1090rpx;
+  left: 37%;
+  font-weight: bold;
+  font-size: 1.6em;
+} */
+#total{
+  width:100%;
+  height:1300rpx;
+  background-color: rgb(245,245,245);
+}
+image{
+  width:150rpx;
+  height:150rpx;
+  position: relative;
+  left:300rpx;
+  top:100rpx;
+}
+#t1{
+  width:100%;
+  height:125rpx;
+  background-color: white;
+  position: relative;
+  top:200rpx;
+}
+#t2{
+  width:100%;
+  height:125rpx;
+  background-color: white;
+  position: relative;
+  top:210rpx;
+}
+#t3{
+  width:100%;
+  height:125rpx;
+  background-color: white;
+  position: relative;
+  top:220rpx;
+}
+#t1 text{
+position: relative;
+left:40rpx;
+top:40rpx;
+color: rgb(143, 143, 143);
+}
+#use{
+  width:400rpx;
+  height:80rpx;
+  margin-left: 200rpx;
+  position: relative;
+  bottom: 25rpx;
+}
+#t2 text{
+position: relative;
+left:40rpx;
+top:40rpx;
+color: rgb(143, 143, 143);
+}
+#pass1{
+  width:400rpx;
+  height:80rpx;
+  margin-left: 200rpx;
+  position: relative;
+  bottom: 25rpx;
+}
+#t3 text{
+position: relative;
+left:40rpx;
+top:40rpx;
+color: rgb(143, 143, 143);
+}
+#pass2{
+  width:400rpx;
+  height:80rpx;
+  margin-left: 320rpx;
+  position: relative;
+  bottom: 25rpx;
+}
+#btn1{
+  position: relative;
+  top:350rpx;
+  background-color:rgb(51, 204, 170);
+  width:600rpx;
+  border-radius: 50rpx;
+}
+#btn1 text{
+  color:white;
+  font-size: 39rpx;
+}
+#btn2{
+  position: relative;
+  top:370rpx;
+  right:230rpx;
+  background-color: rgb(245, 245, 245);
+}
+#btn2::after{
+  border: none;
+}
+#btn2 text{
+  color:black;
+  font-size: 39rpx;
+}
+#btn3{
+  position: relative;
+  top:261rpx;
+  left:200rpx;
+  width:250rpx;
+  background-color: rgb(245, 245, 245);
+}
+#btn3::after{
+  border: none;
+}
+#btn3 text{
+  color:black;
+  font-size: 39rpx;
+}

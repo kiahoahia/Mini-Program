@@ -1,0 +1,103 @@
+.toodstext{
+  width: 98%;
+  margin-left: 7.5rpx;
+  height: 100rpx;
+  margin-top:30rpx;
+  box-shadow: 1px 1px 1px 1px #888;
+  border-radius: 20rpx;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+}
+.txtcontent
+.cb{
+  width: 0px;
+  height: 0px;
+  box-shadow: 2px 2px 2px 2px #888;
+  border-radius: 100rpx;
+  padding-top: 20rpx;
+}
+.weui-search-bar {
+  position: relative;
+  padding: 8px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  box-sizing: border-box;
+  background-color: #EFEFF4;
+  border-top: 1rpx solid #D7D6DC;
+  border-bottom: 1rpx solid #D7D6DC;
+}
+.weui-icon-search_in-box {
+  position: absolute;
+  left: 10px;
+  top: 7px;
+}
+.weui-search-bar__form {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+          flex: auto;
+  border-radius: 5px;
+  background: #FFFFFF;
+  border: 1rpx solid #E6E6EA;
+}
+.weui-search-bar__box {
+  position: relative;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.weui-search-bar__input {
+  height: 28px;
+  line-height: 28px;
+  font-size: 14px;
+}
+.weui-search-bar__cancel-btn {
+  margin-left: 10px;
+  line-height: 28px;
+  color: #09BB07;
+  white-space: nowrap;
+}
+.toodadd {
+  background-color: #1380f7;
+  width: 100rpx;
+  height: 100rpx;
+  display: flex;
+  border-radius: 100rpx;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 20rpx;
+  color: #fff;
+  font-size: 50rpx;
+}
+.toodslist{
+  width: 96% ;
+  height: 250rpx;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color:white;
+  margin-top: 10rpx;
+  border-radius: 10rpx;
+  box-shadow: 2rpx 2rpx 2rpx 2rpx #8888;
+}
+.name{
+  font-size: 40rpx;
+}
+.message{
+  width: 50%;
+  height: 200rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.time{
+  color: #1079f3;
+}

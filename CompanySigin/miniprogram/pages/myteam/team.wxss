@@ -1,0 +1,15 @@
+view > .img {
+  width: 750rpx;
+}
+view > .h1 {
+  margin-top: 20rpx;
+}
+.hr {
+  margin-top: 50rpx;
+}
+.m {
+  position: fixed;
+  bottom: 40rpx;
+  left: 42%;
+  font-weight: bold;
+}

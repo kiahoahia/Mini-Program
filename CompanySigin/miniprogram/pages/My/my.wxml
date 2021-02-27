@@ -1,0 +1,59 @@
+<view wx:if="{{haslogin ==true}}">
+  <view class="back"></view>
+</view>
+<view class="namepack" wx:if="{{haslogin ==true}}">
+  <view class="solid">
+    <view class="user_nickname">
+      <open-data type="userNickName"> </open-data>
+    </view>
+    <view class="user_img">
+      <open-data type="userAvatarUrl"> </open-data>
+    </view>
+  </view>
+  <navigator url="/pages/company-message/commessage" class="comname">
+    <image src="cloud://kiahiahoa-4gvusjebfa839977.6b69-kiahiahoa-4gvusjebfa839977-1304487626/functionui/lxbg.png"
+      style="width:70rpx;height:70rpx"></image>
+    <view>乐享办公技术有限公司</view>
+  </navigator>
+</view>
+<view wx:else="" class="landr">
+  <view bindtap='jump02'>登录</view>
+  <view bindtap='jump03'>/注册</view>
+</view>
+<view wx:if="{{haslogin ==true}}">
+  <view url style="margin-top:140rpx" class="dh" >
+  <view class="dh_1">
+    <image style="width:80rpx;height:80rpx;"
+      src="cloud://kiahiahoa-4gvusjebfa839977.6b69-kiahiahoa-4gvusjebfa839977-1304487626/functionui/icon-16@3x.png"></image>
+      <view class="dh_1_1" bindtap='jump01'>签到记录</view>
+  </view>
+  <image style="width:80rpx;height:80rpx;"
+    src="cloud://kiahiahoa-4gvusjebfa839977.6b69-kiahiahoa-4gvusjebfa839977-1304487626/functionui/jianl.png"></image>
+</view>
+<navigator style="margin-top:20rpx" class="dh" url="/pages/meeting/meetingroom" >
+  <view class="dh_1">
+    <image style="width:80rpx;height:80rpx;"
+      src="cloud://kiahiahoa-4gvusjebfa839977.6b69-kiahiahoa-4gvusjebfa839977-1304487626/functionui/icon-21@3x.png"></image>
+    <navigator class="dh_1_1" url="/pages/meeting/meetingroom">预约记录</navigator>
+  </view>
+  <image style="width:80rpx;height:80rpx;"
+    src="cloud://kiahiahoa-4gvusjebfa839977.6b69-kiahiahoa-4gvusjebfa839977-1304487626/functionui/jianl.png"></image>
+</navigator>
+<navigator style="margin-top:20rpx" class="dh">
+  <view class="dh_1">
+    <image style="width:80rpx;height:80rpx;"
+      src="cloud://kiahiahoa-4gvusjebfa839977.6b69-kiahiahoa-4gvusjebfa839977-1304487626/functionui/icon-10@3x.png"></image>
+    <view class="dh_1_1" bindtap='jump04'>我的团队</view>
+  </view>
+  <image style="width:80rpx;height:80rpx;"
+    src="cloud://kiahiahoa-4gvusjebfa839977.6b69-kiahiahoa-4gvusjebfa839977-1304487626/functionui/jianl.png"></image>
+</navigator>
+<button bindtap="jump05">退出登录</button>
+</view>
+
+
+
+ 
+
+
+

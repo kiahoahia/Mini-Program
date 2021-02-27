@@ -1,0 +1,15 @@
+<block wx:for="{{meeting_room}}" wx:key="_id">
+  <view class="meeting_room">
+    <image src="{{item.src}}" style="width:250rpx;height:200rpx;border-radius: 10rpx;" bindtap="img"></image>
+    <view class="room_message">
+      <view class="name">{{item.name}}</view> 
+    <view class="msg"> 
+      <view>最大人数：{{item.people_max}}</view>
+      <view>最小人数：{{item.people_min}}</view>
+    </view>
+  </view>
+  <view class="yu" bindtap="yuyue" data-room_name="{{item.name}}">
+  <view bindtap="">预约</view>  
+  </view>
+ </view> 
+</block>

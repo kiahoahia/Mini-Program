@@ -1,0 +1,34 @@
+.title{
+  width: 750rpx;
+  height: 80rpx;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  font-size: 40rpx;
+  border-radius:20rpx;
+  box-shadow: 2px 2px 2px 2px #888888;
+  padding-top: 80rpx;
+}
+.t_input{
+  padding-top:10rpx;
+  height: 100%;
+}
+.them{
+  width: 750rpx;
+  height: 450rpx;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  font-size: 40rpx;
+  border-radius:20rpx;
+  box-shadow: 2px 2px 2px 2px #888888;
+  padding-top: 80rpx;
+}
+.button{
+  color: aliceblue;
+  width: 50%;
+  background-color: #1380f7;
+}
+.but{
+  padding-top: 80rpx;
+}

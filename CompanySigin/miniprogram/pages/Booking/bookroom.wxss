@@ -1,0 +1,32 @@
+.meeting_room{
+  width: 96% ;
+  height: 250rpx;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color:white;
+  margin-top: 10rpx;
+  border-radius: 10rpx;
+  box-shadow: 2rpx 2rpx 2rpx 2rpx #8888;
+}
+.name{
+  font-size: 40rpx;
+}
+.room_message{
+  margin-left: 20rpx;
+  width: 50%;
+  height: 200rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.msg{
+  color: #1079f3;
+}
+.yu{
+  font-size: 35rpx;
+  width: 15%;
+  color: #1079f3;
+}

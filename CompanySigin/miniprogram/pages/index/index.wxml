@@ -1,0 +1,58 @@
+<!-- 轮播图 -->
+<view class="banner">
+  <swiper indicator-dots="true">
+    <block wx:for="{{banner}}" wx:key="_id" wx:if="{{id!=0}}">
+      <swiper-item>
+        <image class="img1" src="{{item.src}}"  mode="widthFix"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="notice">
+  <view class="notice_1">公告</view>
+  <view class="lines"></view>
+  <swiper autoplay="true" interval="2000" circular="true"  vertical="true" class="notice_2">
+    <swiper-item class="notice_i">三段公告</swiper-item>
+    <swiper-item class="notice_i">二段公告</swiper-item>
+    <swiper-item class="notice_i">一段公告</swiper-item>
+  </swiper>
+  <view class="lines"></view>
+  <view class="notice_y">查看公告</view>
+</view>
+<view class="function">
+  <view class="function_top">
+    <view class="function_top1">      
+      <image src="cloud://kiahiahoa-4gvusjebfa839977.6b69-kiahiahoa-4gvusjebfa839977-1304487626/functionui/team.png" class="img"></image>
+      <view>
+        <view>团队介绍</view>
+        <view>team instruction</view>
+      </view>
+    </view>
+    <view class="line_y"></view>
+    <view class="function_top1">
+      <image src="cloud://kiahiahoa-4gvusjebfa839977.6b69-kiahiahoa-4gvusjebfa839977-1304487626/functionui/meetingbook.png" class="img"></image>
+      <navigator url="../Booking/bookroom">
+        <view>会议室预约</view>
+        <view>room booking</view>
+      </navigator>
+    </view>
+  </view>
+  <view class="line_x"></view>
+  <view class="function_bot">
+    <view class="function_bot1">      
+      <image src="cloud://kiahiahoa-4gvusjebfa839977.6b69-kiahiahoa-4gvusjebfa839977-1304487626/functionui/check.png" class="img"></image>
+      <view>
+        <view>签到打卡</view>
+        <view>check & sigin in</view>
+      </view>
+    </view>
+    <view class="line_y"></view>
+    <view class="function_bot1">
+      <image src="cloud://kiahiahoa-4gvusjebfa839977.6b69-kiahiahoa-4gvusjebfa839977-1304487626/functionui/myself.png" class="img"></image>
+      <view>
+        <view>个人中心</view>
+        <view>personal center</view>
+      </view>
+    </view>
+  </view>
+</view>

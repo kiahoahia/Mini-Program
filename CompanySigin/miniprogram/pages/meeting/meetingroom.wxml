@@ -1,0 +1,62 @@
+<picker mode="date" class="dates" bindchange="date">
+  <view class="dates">
+  <view >{{year}}年</view>
+  <view class="">{{month}}月</view>
+  <view>{{day}}日</view>
+</view>
+</picker>
+
+
+
+
+
+
+<!-- 当时预约情况 -->
+<view class="center">
+<view class="meeting">
+  <view class="meeting_1">
+    <view class="room_name">101会议室</view>
+    <view class="meeting_num">
+      <image src="cloud://kiahiahoa-4gvusjebfa839977.6b69-kiahiahoa-4gvusjebfa839977-1304487626/functionui/datelist.png" style="width:50rpx;height:50rpx;"></image>
+      <view>{{meeting_num}}个预约</view>
+    </view>
+  </view>
+  <block wx:for="{{meeting}}" wx:key="_id">
+    <view class="meeting_msg">
+      <view class="meeting_time">{{item.start_time}}:00~{{item.end_time}}:00</view>
+    <view class="meeting_department_name">{{item.departement_name}}</view>
+    </view>    
+  </block>
+</view>
+</view>
+<!-- 预约会议 -->
+<view class="center">
+<view class="yuyue">
+  <view class="yuyue_title">填写预约信息</view>
+  <view class="yuyue_start_time">
+    <view>开始时间</view>
+    <picker class="xuanze" mode="selector" range="{{time}}" range-key="yemian" bindchange="start_time">
+      {{start_time}}:00
+    </picker>
+  </view>
+  <view class="yuyue_end_time">
+    <view>结束时间</view>
+    <picker class="xuanze" mode="selector" range="{{time}}" range-key="yemian" bindchange="end_time">
+      {{end_time}}:00
+    </picker>
+  </view>
+  <view>
+
+
+  </view>
+  <view class="yuyue_end_time">
+    <view>预约的部门</view>
+    <picker class="xuanze" mode="selector" range="{{departement}}" bindchange="departement">
+      {{departement_name}}
+    </picker>
+  </view>
+</view>
+</view>
+
+
+<button type="primary" style="width:96%;margin-top:100rpx" bindtap="submit">提交预约</button>

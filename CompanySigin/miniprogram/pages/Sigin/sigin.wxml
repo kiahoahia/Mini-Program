@@ -1,0 +1,7 @@
+<map class="map" latitude="{{latitude}}" longitude="{{longitude}}" markers="{{markers}}" enable-zoom="" enable-scroll=""></map>
+<view>
+  <button bindtap="getLocation">获取当前的位置</button>
+</view>
+<view class="sign_in">
+  <view bindtap="sign_in">签 到</view>
+</view>

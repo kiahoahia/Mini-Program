@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/Login/login",
+    "pages/Register/register",
+    "pages/index/index",
+    "pages/My/my",
+    "pages/Sigin/sigin",
+    "pages/Sigin-record/sigin-record",
+    "pages/Tood/toods",
+    "pages/Toodsadd/toodsadd",
+    "pages/company-message/commessage",
+    "pages/Booking/bookroom",
+    "pages/meeting/meetingroom",
+    "pages/myteam/team"
+  ],
+  "requiredBackgroundModes": ["location"],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1380f7",
+    "navigationBarTitleText": "乐享办公",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#438edb",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./images/home.png",
+        "selectedIconPath": "./images/home1.png"
+      },
+      {
+        "pagePath": "pages/Sigin/sigin",
+        "text": "签到",
+        "iconPath": "./images/sigin.png",
+        "selectedIconPath": "./images/sigin1.png"
+      },
+      {
+        "pagePath": "pages/Tood/toods",
+        "text": "记事本",
+        "iconPath": "./images/toods.png",
+        "selectedIconPath": "./images/toods1.png"
+      },
+      {
+        "pagePath": "pages/Booking/bookroom",
+        "text": "会议室预定",
+        "iconPath": "./images/meetingroom.png",
+        "selectedIconPath": "./images/meetingroom1.png"
+      },
+
+      {
+        "pagePath": "pages/My/my",
+        "text": "个人",
+        "iconPath": "./images/self.png",
+        "selectedIconPath": "./images/self1.png"
+      }
+    ]
+  },
+  
+"permission": {
+  "scope.userLocation": {
+    "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+  }
+},
+  "sitemapLocation": "sitemap.json"
+  
+}

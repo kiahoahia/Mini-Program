@@ -1,0 +1,23 @@
+
+<view class="back" bindtap="jump">
+  <image src="../../images/back.png" style="width:50rpx;height:50rpx;"></image>
+</view>
+<view id="total">
+<form bindsubmit="create_login">
+<view id="t1">
+<text>账号</text><input bind:change='nameInput' type="text" name="username" id="use" placeholder="输入您的账号" value="{{username}}"></input>
+</view>
+<view id="t2">
+<text>密码</text><input bind:change='passwordInput' type="password" name="password" id="pass1" placeholder="输入您密码" value="{{password}}"></input>
+</view>
+<button bindtap="onLogin" id="btn1" form-type="submit"><text>登陆</text></button>
+</form>
+
+<button bindtap="register" id="btn2" form-type="submit" hover-class="hover"><text>注册</text></button>
+<button bindtap="register" id="btn3" form-type="submit" hover-class="hover"><text>忘记密码</text></button>
+
+</view>
+<!-- <input bind:change='nameInput' class="username" placeholder="请输入你们的用户名"/>
+  <input bind:change='passwordInput' class="password" placeholder="请输入你们的密码"/>
+  <button bindtap="onLogin" form-type="submit" hover-class="hover">登录</button>
+  <button bindtap="register" form-type="submit" hover-class="hover">注册</button> -->

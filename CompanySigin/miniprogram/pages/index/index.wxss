@@ -1,0 +1,106 @@
+.banner {
+  width: 100%;
+  height: 300rpx;
+  margin-bottom: 30rpx;
+}
+.notice {
+  width: 96%;
+  height: 100rpx;
+  display: flex;
+  align-self: center;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 10rpx;
+  box-shadow: 2px 2px 2px #438edb;
+}
+.notice_1 {
+  width: 100rpx;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notice_2 {
+  height: 100rpx;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notice_i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.notice_y {
+  width: 20%;
+  height: 100rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lines {
+  width: 2rpx;
+  height: 60rpx;
+  margin-left: 2rpx;
+  margin-right: 2rpx;
+  background-color: #8888;
+}
+/* 功能模块 */
+.function {
+  width: 96%;
+  height: 400rpx;
+  display: flex;
+  flex-direction: column;
+  align-self:center;
+  align-items: center;
+  justify-content: center;
+  border:3rpx solid #438edb;
+  border-radius: 20rpx;
+  margin-top: 30rpx;
+  box-shadow: 2px 2px 2px 1px #438edb;
+}
+.function_top {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+
+}
+.function_bot {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+}
+.line_x {
+  width: 98%;
+  border:2rpx solid #8888;
+}
+.line_y {
+  height: 98%;
+  border:2rpx solid #8888;
+}
+.img {
+  width: 80rpx;
+  height: 80rpx;
+}
+.function_top1 {
+  width: 50%;
+  height: 200rpx;
+  display: flex;
+  flex-direction: row;
+  align-self:center;
+  align-items: center;
+  justify-content: center;
+}
+.img1 {
+  width: 750rpx;
+}
+.function_bot1 {
+  width: 50%;
+  height: 200rpx;
+  display: flex;
+  flex-direction: row;
+  align-self:center;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,14 @@
+<block wx:for="{{signin}}"  wx:key="_id">
+  <view >
+    <view class="toodslist">
+      <view class="name">签到时间:{{item.time}}</view>
+      <view class="name">签到状态:{{item.sign_in_state}}</view>
+      <view>  
+      <view>签到日期：{{item.date}}</view>
+      <view>地址：{{item.address}}</view>
+    </view>
+    </view>
+    
+  </view>
+
+</block>

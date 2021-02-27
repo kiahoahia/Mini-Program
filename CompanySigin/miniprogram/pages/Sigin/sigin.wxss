@@ -1,0 +1,29 @@
+page {
+  background-color: #fff;
+}
+.map {
+  width: 750rpx;
+  height: 750rpx;
+}
+.sign_in {
+  background-color: #1380f7;
+  width: 200rpx;
+  height: 200rpx;
+  display: flex;
+  border-radius: 100rpx;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 80rpx;
+  color: #fff;
+  font-size: 50rpx;
+}
+.view>button {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}

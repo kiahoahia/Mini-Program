@@ -1,0 +1,15 @@
+<view class="title">
+  <view>标题内容:</view>
+  <view class="t_input">
+      <input bindchange="titleInput" type="text" placeholder="请输入你的标题" />
+  </view>
+</view>
+<view class="them">
+  <view>主要内容：</view>
+  <view>
+    <input bindchange="contentsInput" placeholder="请在这里输入你的主要类容"></input>
+  </view>
+</view>
+<view class="but">
+  <button bindtap="toodsadd" class="button">确认添加</button> 
+</view>

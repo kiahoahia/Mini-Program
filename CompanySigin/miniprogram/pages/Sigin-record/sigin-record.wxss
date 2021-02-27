@@ -1,0 +1,23 @@
+.toodslist{
+  width: 96% ;
+  height: 250rpx;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  justify-content: space-around;
+  background-color:white;
+  margin-top: 10rpx;
+  border-radius: 10rpx;
+  box-shadow: 2rpx 2rpx 2rpx 2rpx #8888;
+}
+.name{
+  font-size: 25rpx;
+}
+.message{
+  width: 50%;
+  height: 200rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}

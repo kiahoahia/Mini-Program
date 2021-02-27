@@ -1,0 +1,7 @@
+<view class="contanier">
+  <text style="color: #438edb;">账号注册</text>
+  <input bindinput="usernameInput" class="username" placeholder="请输入你的用户名" />
+  <input bindinput="userpasswordInput" placeholder="请输入你的密码" />
+  <button bindtap ="onRegister" form-type="submit" hover-class="hover">注册</button>
+  <button bindtap ="login" form-type="submit" hover-class="hover">返回登录</button>
+</view>

@@ -1,0 +1,136 @@
+{
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "enhance": true,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "appid": "wx8b24ae7b710327f2",
+  "projectname": "CompanySigin",
+  "libVersion": "2.8.1",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "name": "pages/Register/register",
+          "pathName": "pages/Register/register",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/Login/login",
+          "pathName": "pages/Login/login",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/index/index",
+          "pathName": "pages/index/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/My/my",
+          "pathName": "pages/My/my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/company-message/commessage",
+          "pathName": "pages/company-message/commessage",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/Sigin/sigin",
+          "pathName": "pages/Sigin/sigin",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/Tood/toods",
+          "pathName": "pages/Tood/toods",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/Toodsadd/toodsadd",
+          "pathName": "pages/Toodsadd/toodsadd",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/Booking/bookroom",
+          "pathName": "pages/Booking/bookroom",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/meeting/meetingroom",
+          "pathName": "pages/meeting/meetingroom",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/Sigin-record/sigin-record",
+          "pathName": "pages/Sigin-record/sigin-record",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/myteam/team",
+          "pathName": "pages/myteam/team",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

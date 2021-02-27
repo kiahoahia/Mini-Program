@@ -1,0 +1,61 @@
+/* pages/Register/register.wxss */
+page {
+  background-color: #fff;
+  color: white;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contanier {
+  border-color:#fff;
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+}
+.header {
+  font-size: large;
+  font-weight: bold;
+}
+form {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: space-around;
+}
+input {
+  height: 60rpx;
+  width: 400rpx;
+  border: 5rpx solid #438edb;
+  border-radius: 40rpx;
+  padding: 5rpx 40rpx;
+  margin: 40rpx;
+  color: #222;
+}
+button {
+  background-color: #438edb;
+  color: antiquewhite;
+  font-size: larger !important;
+  font-weight: 500 !important;
+  height: 60rpx !important;
+  width: 300rpx !important;
+  line-height:50rpx !important;
+  border: 5rpx solid #438edb !important;
+  border-radius: 40rpx !important;
+  padding: 5rpx 20rpx !important;
+}
+button.hover {
+  background-color: #438edb !important;
+  color: #222;
+  font-weight: 900 !important;
+}
+.text {
+  font-size: 50rpx;
+}

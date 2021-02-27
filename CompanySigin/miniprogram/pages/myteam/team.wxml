@@ -1,0 +1,13 @@
+<view>
+  <image class="img" src="cloud://kiahiahoa-4gvusjebfa839977.6b69-kiahiahoa-4gvusjebfa839977-1304487626/banner/swiper1.png" mode="widthFix" />
+</view>
+<view>
+  <view class="h1">核心价值观：</view>
+  <view class="h5">正直守信、与时俱进、奋斗、利他、创新</view>
+  <view class="hr"></view>
+  <view class="h1">使命：</view>
+  <view class="h5">怀抱同理心，为他人赋能。</view>
+  <view class="h5">传道、授业、解惑！</view>
+  <view class="hr"></view>
+</view>
+<view class="m">关于我们！</view>
